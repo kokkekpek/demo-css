@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>@casino/demo-css</title>
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+    <div>
+        <div class="demo__item">
+            <h2>demo__item</h2>
+            <div style="width: 100%; background: #BBB; overflow: auto;">
+                <div class="demo__item" style="height: 24px; background: #555;"></div>
+            </div>
+        </div>
+
+        <div class="demo__item">
+            <h2>demo__block</h2>
+            <div class="demo__block" style="height: 48px"></div>
+        </div>
+        <div class="demo__item">
+            <h2>demo__block_blue</h2>
+            <div class="demo__block demo__block_blue" style="height: 48px"></div>
+        </div>
+        <div class="demo__item">
+            <h2>demo__block_dark</h2>
+            <div class="demo__block demo__block_dark" style="height: 48px"></div>
+        </div>
+        <div class="demo__item">
+            <h2>demo__block_overflow-hidden</h2>
+            <div class="demo__block demo__block_overflow-hidden" style="height: 48px">
+                <div style="width: 80px; height: 80px; background: #555; border-radius: 50%"></div>
+            </div>
+        </div>
+        <div class="demo__item">
+            <h2>demo__block_relative</h2>
+            <div class="demo__block demo__block_relative demo__block_overflow-hidden" style="height: 48px">
+                <div style="width: 80px; height: 80px; background: #555; border-radius: 50%; position: absolute; top: -40px; left: -40px"></div>
+            </div>
+        </div>
+        <div class="demo__item">
+            <h2>demo__block_padding</h2>
+            <div class="demo__block demo__block_padding">
+                <div style="width: 80px; height: 80px; background: #555; border-radius: 50%"></div>
+            </div>
+        </div>
+
+        <div class="demo__item">
+            <h2>demo__button</h2>
+            <button class="demo__button">Button</button>
+        </div>
+        <div class="demo__item">
+            <h2>demo__button demo__button_link</h2>
+            <a class="demo__button demo__button_link" href="#">Button</a>
+        </div>
+    </div>
+    <script src="bundle.js"></script>
+</body>

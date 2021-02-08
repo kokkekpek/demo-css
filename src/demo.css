@@ -1,0 +1,110 @@
+.demo__item {
+    margin: 12px 12px 2em 12px;
+}
+
+
+
+/*************
+* DEMO BLOCK *
+**************/
+.demo__block {
+    width: 100%;
+    border-radius: 6px;
+    position: relative;
+    background: #DDD;
+}
+
+.demo__block_blue {
+    background: #2AD;
+}
+
+.demo__block_dark {
+    background: #555;
+}
+
+.demo__block_overflow-hidden {
+    overflow: hidden;
+}
+
+.demo__block_relative {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.demo__block_padding {
+    padding: 12px;
+}
+
+
+
+/*************
+* DEMO TITLE *
+**************/
+.demo__title {
+    line-height: 1.5;
+    font-size: 1.5em;
+}
+
+
+
+/**************
+* DEMO SELECT *
+***************/
+.demo__select {
+    width: 100%;
+    height: 42px;
+    margin-bottom: 1em;
+    color: #FFF;
+    background: #09F;
+    font-size: 16px;
+    line-height: 42px;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 0 8px;
+}
+
+@media not all and (hover: none) {
+    .demo__select:hover {
+        filter: brightness(1.1);
+    }
+}
+
+.demo__select:active {
+    filter: brightness(1.2);
+}
+
+
+
+/**************
+* DEMO BUTTON *
+***************/
+.demo__button {
+    display: inline-block;
+    background: #09F;
+    color: #FFF;
+    font-size: 16px;
+    line-height: 42px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0 12px;
+    border-radius: 6px;
+    margin: 6px 6px 0 0;
+    user-select: none;
+}
+
+@media not all and (hover: none) {
+    .demo__button:hover {
+        cursor: pointer;
+        filter: brightness(1.1);
+    }
+}
+
+.demo__button:active {
+    filter: brightness(1.2);
+}
+
+.demo__button_link {
+    text-decoration: none;
+    background: #000;
+}
