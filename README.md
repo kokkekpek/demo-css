@@ -1,7 +1,7 @@
 # README
 
 ## Build demo
-```bash
+```sh
 cd /path/to/project
 yarn install
 yarn webpack
@@ -12,6 +12,6 @@ yarn webpack
 yarn add kokkekpek/demo-css
 ```
 
-```js
+```ts
 import 'demo-css'
 ```
